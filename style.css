@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+    height: 10%;
+
+    gap: 40px;
+}
+h4{
+    cursor: pointer;
+}
+#courses{
+    overflow: auto;
+
+    height: 90%;
+    width: 100%;
+    /* color: #fff; */
+    background-color: rgb(27, 27, 27);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.elem{
+    margin: 30px;
+    background-color: #fff;
+    /* width: 20vw; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.elem h6{
+    font-size: 25px;
+    font-weight: 900;
+}
+.Beginner{
+    color: green;
+}
+.Intermediate{
+    color: rgb(255, 234, 0);
+}
+.Advanced{
+    color: red;
+}
+.elem h1{
+    width: 22vw;
+    font-weight: 700;
+    /* margin-bottom: 10px; */
+}
+.elem h2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+}
+.elem h4{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.elem h5{
+    font-size: 18px;
+}
